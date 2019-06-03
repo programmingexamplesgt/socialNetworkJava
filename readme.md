@@ -6,13 +6,17 @@ A simple web app example using Java, JDBC, JSP and Servlet.
 
  - Clone repo
  - Create MySql database using script database/social_network_db.sql
- - Create file db.properties in root project directory
+ - Create file settings.properties in root project directory
 
-```java
+```python
+    # database
     user=[my_user]
     password=[my_password]
     dburl=jdbc:mysql://localhost:3306/social_network_db
     useSSL=false
+    # encript password key
+    secretkey="my_secret_key"
+
 ```
  - Package and deploy project.
 

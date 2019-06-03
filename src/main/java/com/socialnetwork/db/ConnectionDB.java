@@ -50,7 +50,7 @@ public class ConnectionDB {
     
     
     private static Properties loadProperties() {
-        try (FileInputStream fs = new FileInputStream("db.properties")) {
+        try (FileInputStream fs = new FileInputStream("setting.properties")) {
             Properties props = new Properties();
             props.load(fs);
             return props;
