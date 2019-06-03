@@ -13,7 +13,7 @@ A simple web app example using Java, JDBC, JSP and Servlet.
     user=[my_user]
     password=[my_password]
     dburl=jdbc:mysql://localhost:3306/social_network_db
-    useSSL=falsesecret_key
+    useSSL=false
     # encript password key
     secretkey="my_secret_key"
 
