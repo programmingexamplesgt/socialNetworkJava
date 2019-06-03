@@ -17,7 +17,7 @@ import java.util.Properties;
 public class PropertiesManager {
 
     public static Properties loadProperties() {
-        try (FileInputStream fs = new FileInputStream("setting.properties")) {
+        try (FileInputStream fs = new FileInputStream("settings.properties")) {
             Properties props = new Properties();
             props.load(fs);
             return props;
