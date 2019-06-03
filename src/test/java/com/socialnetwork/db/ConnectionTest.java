@@ -3,12 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package db;
+package com.socialnetwork.db;
 
 import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.Test;
-
 /**
  *
  * @author user
@@ -17,12 +16,12 @@ public class ConnectionTest {
     
     @Test
     public void connectionTest(){
-        Assert.assertNotEquals(null, db.ConnectionDB.getConnection());
+        Assert.assertNotEquals(null,ConnectionDB.getConnection());
     }
     
     @AfterClass
     public static void closeConnection(){
-        db.ConnectionDB.closeConnection();
+        ConnectionDB.closeConnection();
     }
     
 }
