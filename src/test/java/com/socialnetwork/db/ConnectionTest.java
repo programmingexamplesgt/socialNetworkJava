@@ -16,7 +16,7 @@ public class ConnectionTest {
     
     @Test
     public void connectionTest(){
-        Assert.assertNotEquals(null,ConnectionDB.getConnection());
+        Assert.assertNotNull(ConnectionDB.getConnection());
     }
     
     @AfterClass
